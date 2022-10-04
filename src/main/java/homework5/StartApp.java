@@ -10,7 +10,7 @@ public class StartApp {
         homeworkMethod();
     }
 
-    public static void homeworkMethod () {
+    public static void homeworkMethod() {
         StudentService studentService = new StudentService();
         Student student = new Student();
         Random random = new Random();

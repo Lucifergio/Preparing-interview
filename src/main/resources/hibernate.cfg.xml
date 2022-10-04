@@ -7,7 +7,9 @@
     <session-factory>
         <!-- Database connection settings -->
         <property name="hibernate.connection.driver_class">org.sqlite.JDBC</property>
-        <property name="hibernate.connection.url">jdbc:sqlite:/home/aleksey/IdeaProjects/Preparing-interview/src/main/resources/Student.sqlite</property>
+        <property name="hibernate.connection.url">
+            jdbc:sqlite:/home/aleksey/IdeaProjects/Preparing-interview/src/main/resources/Student.sqlite
+        </property>
         <!-- JDBC connection pool (use the built-in) -->
         <property name="hibernate.connection.pool_size">1</property>
         <!-- Echo all executed SQL to stdout -->
@@ -19,7 +21,7 @@
         <property name="hibernate.connection.characterEncoding">utf8</property>
         <property name="hibernate.connection.useUnicode">true</property>
 
-        <mapping class="homework5.entity.Student" />
+        <mapping class="homework5.entity.Student"/>
 
     </session-factory>
 </hibernate-configuration>

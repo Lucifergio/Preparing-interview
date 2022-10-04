@@ -3,7 +3,7 @@ package homework5.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table (name = "table_student")
+@Table(name = "table_student")
 public class Student {
 
     @Id
