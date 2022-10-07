@@ -1,5 +1,5 @@
 <html>
 <body>
-<a href="/hello">Homework 6 servlet -></a>
+<a href="/homework6/hello">Homework 6 servlet -></a>
 </body>
 </html>
